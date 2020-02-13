@@ -3,22 +3,34 @@
 @import "bootstrap";
 .navbar {
 
-background-color: #FDF6EA !important;
+background-color: #FDF6EA !important; //I assume important to override bootstrap?
 
 }
 
 
 
-.navbar-brand {
+// .navbar-brand {
+//
+// font-size: 3rem;
+//
+// }
 
-font-size: 3rem;
-
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: blue;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
 
-
-
-h1 {
-
-color: red;
-
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
 }
+
+// h1 {
+//
+// color: red;
+//
+// }
