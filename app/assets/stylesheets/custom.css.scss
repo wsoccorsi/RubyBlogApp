@@ -29,6 +29,36 @@ background-color: #FDF6EA !important; //I assume important to override bootstrap
   text-decoration: none;
 }
 
+.jumbotron {
+  background-image: asset-url('ruby-pic.jpeg');
+  background-size: cover;
+  height: 800px;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover{
+  color: #222;
+}
+
+footer small{
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
 // h1 {
 //
 // color: red;
